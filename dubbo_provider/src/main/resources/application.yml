@@ -1,0 +1,26 @@
+dubbo:
+  application:
+    name: dubbo-provider
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    address: zookeeper://101.43.178.147:2181
+  scan:
+    base-packages: com.dubbo.provider.impl
+server:
+  port: 8001
+
+# 数据库地址
+datasource:
+  url: 101.43.178.147:3307/dong
+
+spring:
+  datasource: # 数据库配置
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${datasource.url}?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: root
+    password: root
+    hikari:
+      maximum-pool-size: 10 # 最大连接池数
+      max-lifetime: 1770000
