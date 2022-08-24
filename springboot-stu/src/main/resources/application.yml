@@ -67,3 +67,10 @@ logging:
   level:
     com.itcodai.course03.dao: trace
 
+
+dubbo:
+  application:
+    name: dubbo-consumer2
+  registry:
+    address: zookeeper://101.43.178.147:2181
+

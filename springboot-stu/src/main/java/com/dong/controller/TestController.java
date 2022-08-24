@@ -5,7 +5,6 @@ import com.ctrip.framework.apollo.ConfigService;
 import com.ctrip.framework.apollo.spring.annotation.ApolloConfig;
 import com.dong.entiy.JsonResult;
 import com.dong.entiy.User;
-
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
