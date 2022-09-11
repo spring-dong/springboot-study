@@ -12,6 +12,7 @@
         <module>dubbo_provider</module>
         <module>dubbo_consumer</module>
         <module>springboot-stu</module>
+        <module>redis-cluster</module>
     </modules>
 
 

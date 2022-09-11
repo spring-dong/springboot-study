@@ -9,6 +9,7 @@
         <module name="springboot-stu" />
         <module name="dubbo_provider" />
         <module name="dubbo_api" />
+        <module name="redis-cluster" />
         <module name="dubbo_consumer" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dubbo_consumer" options="-parameters" />
       <module name="dubbo_provider" options="-parameters" />
+      <module name="redis-cluster" options="-parameters" />
       <module name="springboot-stu" options="-parameters" />
       <module name="springboot-study" options="-parameters" />
     </option>
